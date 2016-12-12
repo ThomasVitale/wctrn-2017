@@ -1,2 +1,2 @@
-# wctrn-2017
-Remote custom CSS for WordCamp Torino 2017
+# WordCamp Torino 2017
+Custom CSS for the WordCamp Torino 2017 theme.
