@@ -283,6 +283,7 @@
 
 #content-row-1 {
 
+	border-top: 5px solid $orange;
   font: 1em/2 $sans-serif;
 
   @include min($xs) {
@@ -294,7 +295,7 @@
       background: $body-bg;
       margin: 1em;
       padding: 1.36em;
-			
+
       @include min($sm) {
         margin: 0 0 2em;
       }
