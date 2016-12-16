@@ -6,6 +6,13 @@ $susy: (
   global-box-sizing: border-box,
 );
 
+/* Fonts */
+$sans-serif: 'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
+$serif: 'Lora', 'Georgia', sans-serif;
+
+$font-size: 22px;
+$font-size-xs:  16px;
+
 /* Breakpoints */
 $xxs:	415px;
 $xs:	520px;
