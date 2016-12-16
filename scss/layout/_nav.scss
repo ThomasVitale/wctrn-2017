@@ -1,0 +1,111 @@
+#main-menu-wrapper {
+	background: $blue;
+  text-align: center;
+
+  @include min($sm) {
+		background-color: transparent;
+		left: 0;
+    position: absolute;
+		text-align: left;
+    top:0;
+    width: 100%;
+  }
+
+}
+
+#main-menu {
+  @include container;
+
+  font-family: $sans-serif;
+  font-size: .88em;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+
+  @include min($xs) {
+    font-size: .7em;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .menu-header,
+	.menu {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .featured-button {
+    @extend %button-orange;
+
+		font-size: .93em;
+    margin: .5em  1em 1em 1em;
+    padding: .1em .8em;
+
+    @include min($xs) {
+      margin-bottom: .5em;
+    }
+
+    @include min($sm) {
+      float: right;
+      margin-bottom: 0;
+    }
+
+    @include min($lg) {
+      margin-right: 0;
+    }
+
+  }
+
+  ul {
+
+    li {
+			display: inline-block;
+      position: relative;
+      vertical-align: top;
+
+      &:hover {
+        background: darken($blue, 10%);
+      }
+
+      a {
+				border: 0;
+				color: $white;
+        display: block;
+        padding: .5em 1.2em;
+      }
+
+      .sub-menu {
+				background: darken($blue, 10%);
+        display: none;
+        min-width: 100%;
+        position: absolute;
+
+        li {
+					border-top: 1px solid $orange;
+          display: block;
+          white-space: pre;
+
+          &:hover {
+            background: lighten($blue, 10%);
+          }
+        }
+
+      }
+
+      &:hover {
+        .sub-menu {
+          @include min($sm) {
+            display: block;
+          }
+        }
+      }
+			
+    }
+  }
+
+  .search-form {
+    @include span(3 last);
+  }
+
+}

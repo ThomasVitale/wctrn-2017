@@ -1,0 +1,36 @@
+#tix {
+  padding: 0 0 1em !important;
+}
+
+.tix_tickets_table {
+  border: 1px solid lighten($lightest-blue, 7.5%);
+
+  @include min($sm) {
+    border: 0;
+  }
+
+}
+
+.tix-column-price {
+  &:before {
+    @extend %track-name;
+
+    content: 'Prezzo';
+  }
+}
+
+.tix-column-remaining {
+  &:before {
+    @extend %track-name;
+
+    content: 'Rimanenti';
+  }
+}
+
+.tix-column-quantity {
+  &:before {
+    @extend %track-name;
+
+    content: 'Quantità';
+  }
+}

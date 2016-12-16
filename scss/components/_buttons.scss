@@ -1,0 +1,98 @@
+%button-base {
+	border: 0;
+  border-radius: $border-radius;
+	display: inline-block;
+	font-family: $sans-serif;
+	padding: .3em .8em;
+  position: relative;
+
+  &:hover {
+    border: 0;
+  }
+
+  &:focus {
+		left: 2px;
+    top: 2px;
+  }
+
+}
+
+%button {
+  @extend %button-base;
+
+	background: $gray;
+  color: $white;
+
+  &:hover {
+    background: darken($gray, 10%);
+  }
+
+}
+
+%button-light {
+  @extend %button-base;
+
+	background: $lightest-gray;
+  color: darken($gray, 13%);
+
+  &:hover {
+    background: darken($lightest-gray, 10%);
+  }
+
+}
+
+%button-orange {
+  @extend %button-base;
+
+	background: $light-orange;
+  color: $white;
+
+  &:hover {
+		background: darken($light-orange, 10%);
+    color: $white;
+  }
+
+}
+
+%button-blue {
+  @extend %button-base;
+
+	background: $light-blue;
+  color: $white;
+
+  &:hover {
+		background: darken($light-blue, 10%);
+    color: $white;
+  }
+
+}
+
+%button-small {
+  letter-spacing: .07em;
+  text-transform: uppercase;
+
+  @include min($xs) {
+    font-size: .72em;
+  }
+
+}
+
+.button--orange {
+  @extend %button-orange;
+
+  &--small {
+    @extend %button-orange;
+    @extend %button-small;
+  }
+
+}
+
+.button--blue {
+  @extend %button-blue;
+
+  &--small {
+    @extend %button-blue;
+    @extend %button-small;
+  }
+
+}

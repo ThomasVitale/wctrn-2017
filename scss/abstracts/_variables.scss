@@ -1,0 +1,37 @@
+/* Susy */
+$susy: (
+  columns: 12,
+  gutters: 2,
+  container: 1180px,
+  global-box-sizing: border-box,
+);
+
+/* Breakpoints */
+$xxs:	415px;
+$xs:	520px;
+$sm:	768px;
+$md:	992px;
+$lg:	1260px;
+$xlg:	1450px;
+
+/* Colors */
+$white:						#fff;
+$black:						#000;
+$lightest-gray:		#eeeeee;
+$light-gray:			#ccc;
+$gray:						#999;
+$dark-gray:				#464342;
+$lightest-blue:		#c3dce6;
+$light-blue:			#2d86a7;
+$blue:						#10759b;
+$dark-blue:				#034761;
+$lightest-orange:	#f7d2c8;
+$light-orange:		#e56040;
+$orange:					#e14a25;
+
+$body-bg:			$white;
+$text-color:	$dark-gray;
+$link-color:	$orange;
+
+/* Other */
+$border-radius:	6px;

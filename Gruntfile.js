@@ -9,6 +9,7 @@ module.exports = function (grunt) {
 		  dist: {
 		    options: {
 					require: 'susy',
+					style: 'compressed'
 		    },
 		    files: [{
 		      'css/style.css' : 'scss/style.scss'

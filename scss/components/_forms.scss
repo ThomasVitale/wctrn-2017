@@ -1,0 +1,44 @@
+%form {
+	border: 2px solid $light-gray;
+	border-radius: $border-radius;
+	color: $text-color;
+	font-family: $serif;
+  font-size: 1em;
+  padding: .3em .8em;
+
+  &:focus {
+		border-color: $blue;
+    outline: none;
+  }
+
+}
+
+input {
+  @extend %form;
+
+  &[type="submit"] {
+    @extend %button-orange;
+  }
+
+}
+
+textarea, select {
+  @extend %form;
+}
+
+/* Jetpack Form */
+.contact-form {
+
+	textarea {
+    max-width: 600px;
+    width: 100% !important;
+  }
+
+  > div {
+    input, select {
+      max-width: 600px !important;
+      width: 100% !important;
+    }
+  }
+
+}
