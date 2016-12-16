@@ -127,10 +127,12 @@
 
       &:nth-child(odd) {
         background-color: $lightest-gold;
+				border-top: 5px solid $gold;
       }
 
       &:nth-child(even) {
         background-color: $lightest-gray;
+				border-top: 5px solid $dark-gray;
       }
 
       .textwidget {
