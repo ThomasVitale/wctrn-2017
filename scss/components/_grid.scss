@@ -55,7 +55,7 @@ body.single-post {
         @include span(12);
 
         @include min($md) {
-          @include span(8);
+          @include span(9);
           @include push(0);
         }
 
@@ -71,7 +71,7 @@ body.single-post {
         @include span(12);
 
         @include min($md) {
-          @include span(4 last);
+          @include span(3 last);
         }
 
         display: block;
