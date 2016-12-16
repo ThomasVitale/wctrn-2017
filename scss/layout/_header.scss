@@ -51,10 +51,10 @@
     height: 271px;
     margin: 0 auto .5em;
     background-image: url('https://2017.torino.wordcamp.org/files/2016/12/logo-3.png');
-		// background-position: center;
-		// background-repeat: no-repeat;
-    background-size: cover;
-		// background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+    // background-size: cover;
+		background-size: contain;
   }
 
 }
@@ -78,5 +78,5 @@ body.home {
       }
     }
   }
-	
+
 }
