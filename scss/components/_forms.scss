@@ -17,7 +17,7 @@ input {
   @extend %form;
 
   &[type="submit"] {
-    @extend %button-orange;
+    @extend %button-gold;
   }
 
 }

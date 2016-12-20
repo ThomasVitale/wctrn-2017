@@ -117,6 +117,7 @@
     }
 
     li {
+			color: $white;
       margin: 1em;
 
       @include min($sm) {
@@ -126,13 +127,11 @@
       }
 
       &:nth-child(odd) {
-        background-color: $lightest-gold;
-				border-top: 5px solid $gold;
+        background-color: $blue;
       }
 
       &:nth-child(even) {
-        background-color: $lightest-gray;
-				border-top: 5px solid $dark-gray;
+        background-color: $gold;
       }
 
       .textwidget {
@@ -209,7 +208,7 @@
         }
       }
 
-      .button--orange,
+      .button--gold,
 			.button--blue {
         @include min($xs) {
           font-size: .78em !important;
@@ -230,7 +229,7 @@
 
     input {
       &[type="submit"] {
-        @extend .button--orange--small;
+        @extend .button--gold--small;
 
         line-height: 2;
       }

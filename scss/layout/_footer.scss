@@ -1,6 +1,6 @@
 #before-footer-wrapper {
 	background-color: $light-gold;
-  border-top: 5px solid $orange;
+  border-top: 5px solid $gold;
 	color: $white;
 	font: 1em/2 $sans-serif;
   padding: 1em;
@@ -19,7 +19,7 @@
     color: $white;
 
     &:hover, &:focus {
-      border-bottom-color: $light-orange;
+      border-bottom-color: $light-gold;
     }
 
   }
@@ -40,7 +40,7 @@
 }
 
 #footer-wrapper {
-	background: $light-orange;
+	background: $light-gold;
   font: .72em/2 $sans-serif;
   text-align: center;
 

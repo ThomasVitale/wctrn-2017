@@ -41,14 +41,14 @@
 
 }
 
-%button-orange {
+%button-gold {
   @extend %button-base;
 
-	background: $light-orange;
+	background: $light-gold;
   color: $white;
 
   &:hover {
-		background: darken($light-orange, 10%);
+		background: darken($light-gold, 10%);
     color: $white;
   }
 
@@ -77,11 +77,11 @@
 
 }
 
-.button--orange {
-  @extend %button-orange;
+.button--gold {
+  @extend %button-gold;
 
   &--small {
-    @extend %button-orange;
+    @extend %button-gold;
     @extend %button-small;
   }
 

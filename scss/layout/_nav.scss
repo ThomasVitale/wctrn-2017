@@ -36,7 +36,7 @@
   }
 
   .featured-button {
-    @extend %button-orange;
+    @extend %button-gold;
 
 		font-size: .93em;
     margin: .5em  1em 1em 1em;
@@ -82,7 +82,7 @@
         position: absolute;
 
         li {
-					border-top: 1px solid $orange;
+					border-top: 1px solid $gold;
           display: block;
           white-space: pre;
 
@@ -100,7 +100,7 @@
           }
         }
       }
-			
+
     }
   }
 

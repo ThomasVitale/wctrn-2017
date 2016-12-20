@@ -8,7 +8,7 @@ $susy: (
 
 /* Fonts */
 $sans-serif: 'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
-$serif: 'Lora', 'Georgia', sans-serif;
+$serif: 'Corbel', 'Georgia', sans-serif;
 
 $font-size: 22px;
 $font-size-xs:  16px;
@@ -25,30 +25,22 @@ $xlg:	1450px;
 $white:						#fff;
 $lightest-gray:		#d6d6d6;
 $light-gray:			#a7a7a7;
-$gray:						#6f6967;
-$dark-gray:				#484443;
+$gray:						#514c4c;
+$dark-gray:				#464342;
 $black:						#000;
 
-$lightest-blue:		#9fcbd6;
-$light-blue:			#368da3;
-$blue:						#005a70;
-$dark-blue:				#003c4b;
+$lightest-blue:		#9ac6d3;
+$light-blue:			#4394a8;
+$blue:						#00697f;
+$dark-blue:				#004d5d;
 
-$lightest-gold:	#d6d3c1;
-$light-gold:		#d6c981;
-$gold:					#d6c251;
-
-$lightest-orange:	#9fcbd6;
-$light-orange:		#368da3;
-$orange:					#005a70;
-
-// $lightest-orange:	#c64b4b;
-// $light-orange:		#b82626;
-// $orange:					#941e1e;
+$lightest-gold:	#d6cc96;
+$light-gold:		#d6c568;
+$gold:					#d6c152;
 
 $body-bg:			$white;
 $text-color:	$dark-gray;
-$link-color:	$orange;
+$link-color:	$blue;
 
 /* Other */
 $border-radius:	6px;
