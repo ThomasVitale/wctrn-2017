@@ -134,6 +134,10 @@
         background-color: $gold;
       }
 
+			.widget-title {
+				color: $white;
+			}
+
       .textwidget {
         @include min($md) {
           font-size: 1em;
