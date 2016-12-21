@@ -53,6 +53,19 @@
 
 }
 
+%button-gold-fill {
+  @extend %button-base;
+
+	border-color: $white;
+	background: $light-gold;
+  color: $white;
+
+  &:hover {
+		background: transparent;
+  }
+
+}
+
 %button-white {
 	@extend %button-base;
 
