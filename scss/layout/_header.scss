@@ -48,11 +48,15 @@
     content: '';
     display: block;
     margin: 0 auto .5em;
+		min-height: 200px;
+		min-height: 200px;
     background-image: url('https://2017.torino.wordcamp.org/files/2016/12/wordcamp-torino-2017-logo.png');
-		// background-position: center;
-		// background-repeat: no-repeat;
     background-size: cover;
-		// background-size: contain;
+
+		@include retina($xs) {
+			background-image: url('https://2017.torino.wordcamp.org/files/2016/12/wordcamp-torino-2017-logo-retina.png');
+	    background-size: cover;
+		}
   }
 
 }
