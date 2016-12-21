@@ -1,6 +1,5 @@
 %button-base {
 	border: 0;
-  border-radius: $border-radius;
 	display: inline-block;
 	font-family: $sans-serif;
 	padding: .3em .8em;
@@ -44,24 +43,39 @@
 %button-gold {
   @extend %button-base;
 
-	background: $light-gold;
-  color: $white;
+	background: transparent;
+	border: 2px solid $light-gold;
+  color: $light-gold;
 
   &:hover {
-		background: darken($light-gold, 10%);
+		background: $light-gold;
     color: $white;
   }
 
 }
 
+%button-white {
+	@extend %button-base;
+
+	background: transparent;
+	border: 2px solid $white;
+	color: $white;
+
+	&:hover {
+		background: $white;
+		color: $dark-gray;
+	}
+}
+
 %button-blue {
   @extend %button-base;
 
-	background: $light-blue;
-  color: $white;
+	background: transparent;
+	border: 2px solid $blue;
+  color: $blue;
 
   &:hover {
-		background: darken($light-blue, 10%);
+		background: $blue;
     color: $white;
   }
 
@@ -82,6 +96,16 @@
 
   &--small {
     @extend %button-gold;
+    @extend %button-small;
+  }
+
+}
+
+.button--white {
+  @extend %button-white;
+
+  &--small {
+    @extend %button-white;
     @extend %button-small;
   }
 
