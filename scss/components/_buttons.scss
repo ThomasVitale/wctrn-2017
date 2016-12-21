@@ -1,5 +1,6 @@
 %button-base {
-	border: 0;
+	background: transparent;
+	border: 2px solid;
 	display: inline-block;
 	font-family: $sans-serif;
 	font-weight: 600;
@@ -20,11 +21,12 @@
 %button {
   @extend %button-base;
 
-	background: $gray;
-  color: $white;
+	border-color: $dark-gray;
+  color: $dark-gray;
 
   &:hover {
-    background: darken($gray, 10%);
+		background: $dark-gray;
+		color: $white;
   }
 
 }
@@ -32,11 +34,12 @@
 %button-light {
   @extend %button-base;
 
-	background: $lightest-gray;
-  color: darken($gray, 13%);
+  border-color: $gray;
+	color: $gray;
 
   &:hover {
-    background: darken($lightest-gray, 10%);
+    background: $gray;
+		color: $white;
   }
 
 }
@@ -44,8 +47,7 @@
 %button-gold {
   @extend %button-base;
 
-	background: transparent;
-	border: 2px solid $light-gold;
+	border-color: $light-gold;
   color: $light-gold;
 
   &:hover {
@@ -58,8 +60,7 @@
 %button-white {
 	@extend %button-base;
 
-	background: transparent;
-	border: 2px solid $white;
+	border-color: $white;
 	color: $white;
 
 	&:hover {
@@ -71,8 +72,7 @@
 %button-blue {
   @extend %button-base;
 
-	background: transparent;
-	border: 2px solid $blue;
+	border-color: $blue;
   color: $blue;
 
   &:hover {
