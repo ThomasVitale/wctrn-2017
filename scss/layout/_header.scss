@@ -45,13 +45,15 @@
   }
 
   &:before {
+		background-image: url('https://2017.torino.wordcamp.org/files/2016/12/wordcamp-torino-2017-logo.png');
+    background-size: cover;
     content: '';
     display: block;
+		height: 200px;
     margin: 0 auto .5em;
 		min-height: 200px;
-		min-height: 200px;
-    background-image: url('https://2017.torino.wordcamp.org/files/2016/12/wordcamp-torino-2017-logo.png');
-    background-size: cover;
+		min-width: 200px;
+		width: 200px;
 
 		@include retina($xs) {
 			background-image: url('https://2017.torino.wordcamp.org/files/2016/12/wordcamp-torino-2017-logo-retina.png');
