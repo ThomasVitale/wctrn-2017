@@ -58,7 +58,7 @@
       &[type="submit"] {
         @extend %button-light;
 
-				border: 2px solid $lightest-gray;
+				border-color: $lightest-gray;
 				font-style: italic;
 				letter-spacing: .05em;
         padding: 6px 18px;
@@ -66,7 +66,7 @@
 				vertical-align: middle;
 
         &:hover {
-          border: 2px solid darken($lightest-gray, 10%);
+          border-color: darken($lightest-gray, 10%);
         }
 
       }
@@ -236,7 +236,7 @@
       &[type="submit"] {
         @extend .button--gold--small;
 
-        line-height: 2;
+        line-height: 1.8;
       }
     }
 
