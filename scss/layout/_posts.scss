@@ -99,6 +99,7 @@ blockquote {
   margin: 1.65em 0;
   padding: 0 2em;
 	position: relative;
+  z-index: 0;
 
   @include min($sm) {
     padding: 0 4em;
@@ -114,6 +115,7 @@ blockquote {
     line-height: 1;
     position: absolute;
     top: 0;
+    z-index: -1;
 
     @include min($sm) {
       font-size: 7em;
