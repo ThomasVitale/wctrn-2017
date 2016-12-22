@@ -5,6 +5,7 @@
   @include min($sm) {
 		background-color: transparent;
 		left: 0;
+		padding: .25em;
     position: absolute;
 		text-align: left;
     top:0;
@@ -26,36 +27,14 @@
   }
 
   .menu-toggle {
-
-		color: $white;
-		display: inline-block;
-		font-size: 1em;
-		padding: .5em 1.2em;
-		width: 100%;
-
-		@include min($sm) {
-    	display: none;
-		}
-
+    display: none;
   }
 
-	.menu-header {
+  .menu-header,
+	.menu {
     display: inline-block;
     vertical-align: middle;
   }
-
-	.menu {
-		display: none;
-		vertical-align: middle;
-
-		@include min($sm) {
-			display: inline-block;
-		}
-
-		.toggled-on {
-			display: inline-block;
-		}
-	}
 
   .featured-button {
     @extend %button-featured;
