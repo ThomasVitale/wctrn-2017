@@ -1,5 +1,5 @@
 #main-menu-wrapper {
-	background: $blue;
+	background: transparentize($blue, .1);
   text-align: center;
 
   @include min($sm) {
@@ -26,14 +26,36 @@
   }
 
   .menu-toggle {
-    display: none;
+
+		color: $white;
+		display: inline-block;
+		font-size: 1em;
+		padding: .5em 1.2em;
+		width: 100%;
+
+		@include min($sm) {
+    	display: none;
+		}
+
   }
 
-  .menu-header,
-	.menu {
+	.menu-header {
     display: inline-block;
     vertical-align: middle;
   }
+
+	.menu {
+		display: none;
+		vertical-align: middle;
+
+		@include min($sm) {
+			display: inline-block;
+		}
+
+		.toggled-on {
+			display: inline-block;
+		}
+	}
 
   .featured-button {
     @extend %button-featured;
