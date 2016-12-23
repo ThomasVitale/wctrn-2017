@@ -41,12 +41,12 @@ textarea, select {
 
 		input[type="radio"] {
 			margin-right: 10px;
-			width: 16px;
+			width: 16px !important;
 		}
 
 		.grunion-radio-label {
 			font-size: 1em;
-			font-weight: 400;
+			font-weight: 400 !important;
 			padding-left: 10px;
 		}
 
