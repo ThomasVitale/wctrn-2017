@@ -38,6 +38,18 @@ textarea, select {
       max-width: 600px !important;
       width: 100% !important;
     }
+
+		input[type="radio"] {
+			margin-right: 10px;
+			width: 16px;
+		}
+
+		.grunion-radio-label {
+			font-size: 1em;
+			font-weight: 400;
+			padding-left: 10px;
+		}
+
   }
 
 }
