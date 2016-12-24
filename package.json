@@ -8,7 +8,6 @@
     "grunt-contrib-sass": "latest",
     "grunt-postcss": "latest",
     "autoprefixer": "latest",
-    "grunt-contrib-cssmin": "latest",
     "grunt-contrib-watch": "latest"
   }
 }

@@ -49,7 +49,7 @@ module.exports = function (grunt) {
 		watch: {
       css: {
         files: ['scss/*.scss', 'scss/*/*.scss', 'scss/*/*/*.scss'],
-        tasks: ['sass', 'postcss', 'cssmin']
+        tasks: ['sass', 'postcss']
       },
     }
 
@@ -58,7 +58,7 @@ module.exports = function (grunt) {
 	// Load Grunt plugins
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-postcss');
-	grunt.loadNpmTasks('grunt-contrib-cssmin');
+	//grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 
 	// Register Grunt tasks
