@@ -26,36 +26,14 @@
   }
 
   .menu-toggle {
-
-		color: $white;
-		padding: .5em;
-
-		@include min($sm) {
-    	display: none;
-		}
+    display: none;
   }
 
   .menu-header,
 	.menu {
-
-		@include min($sm) {
-    	display: inline-block;
-    	vertical-align: middle;
-		}
-
+    display: inline-block;
+    vertical-align: middle;
   }
-
-	.menu,
-	.menu.toggled-off {
-
-		display: none;
-
-		&.toggled-on {
-			border-top: 2px solid $white;
-			display: inline-block;
-		}
-
-	}
 
   .featured-button {
     @extend %button-featured;
@@ -82,18 +60,11 @@
   ul {
 
     li {
-
-			border-bottom: 1px solid $white;
-			font-weight: 600;
-			padding: .4em 0 .4em 1em;
+			display: inline-block;
       position: relative;
-			text-align: left;
       vertical-align: top;
 
 			@include min($sm) {
-				border-bottom: none;
-				display: inline-block;
-				font-weight: 400;
 				padding: .5em 0;
 			}
 
@@ -109,18 +80,17 @@
       }
 
       .sub-menu {
-
+				background: darken($blue, 10%);
+        display: none;
         min-width: 100%;
+        position: absolute;
 
 				@include min($sm) {
-					background: darken($blue, 10%);
-					display: none;
 					margin-top: .5em;
-					position: absolute;
 				}
 
         li {
-					border-bottom: none;
+					//border-top: 1px solid $gold;
           display: block;
           white-space: pre;
 
