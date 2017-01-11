@@ -28,6 +28,7 @@
   .menu-toggle {
 
 		color: $white;
+		cursor: pointer;
 		padding: .5em;
 
 		@include min($sm) {
