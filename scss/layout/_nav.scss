@@ -4,11 +4,11 @@
 	position: fixed;
   text-align: center;
 	top:0;
+	width: 100%;
 	z-index: 1000;
 
   @include min($sm) {
 		text-align: left;
-    width: 100%;
   }
 
 }
