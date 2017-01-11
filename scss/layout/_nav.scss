@@ -1,13 +1,13 @@
 #main-menu-wrapper {
 	background: transparentize($blue, .1);
+	left: 0;
+	position: fixed;
   text-align: center;
+	top:0;
 	z-index: 1000;
 
   @include min($sm) {
-		left: 0;
-    position: fixed;
 		text-align: left;
-    top:0;
     width: 100%;
   }
 
@@ -53,6 +53,10 @@
 		&.toggled-on {
 			border-top: 2px solid $white;
 			display: inline-block;
+
+			@include min($sm) {
+				border-top: none;
+			}
 		}
 
 		@include min($sm) {
