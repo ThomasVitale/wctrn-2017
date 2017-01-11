@@ -1,6 +1,7 @@
 #main-menu-wrapper {
 	background: transparentize($blue, .1);
   text-align: center;
+	z-index: 1000;
 
   @include min($sm) {
 		left: 0;
