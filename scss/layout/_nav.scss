@@ -105,6 +105,10 @@
 				padding: .5em 0;
 			}
 
+			&:last-child {
+				border-bottom: none;
+			}
+
       &:hover {
         background: darken($blue, 10%);
       }

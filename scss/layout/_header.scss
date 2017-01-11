@@ -18,9 +18,7 @@
     vertical-align: middle;
 
 		#masthead {
-			@include min($sm) {
-				padding-top: 3em;
-			}
+			padding-top: 3em;
 		}
   }
 
