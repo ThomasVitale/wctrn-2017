@@ -112,11 +112,8 @@
 
       &:hover {
 
-				text-decoration: underline;
-
 				@include min($sm) {
         	background: darken($blue, 10%);
-					text-decoration: none;
 				}
       }
 
@@ -144,10 +141,8 @@
           white-space: pre;
 
           &:hover {
-						text-decoration: underline;
 						@include min($sm) {
 		        	background: lighten($blue, 10%);
-							text-decoration: none;
 						}
           }
         }
