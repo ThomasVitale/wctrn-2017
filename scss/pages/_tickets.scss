@@ -15,6 +15,12 @@
 
 }
 
+.tix-attendee-form {
+	th {
+		font-weight: 700;
+	}
+}
+
 .tix-column-price {
   &:before {
     @extend %track-name;
