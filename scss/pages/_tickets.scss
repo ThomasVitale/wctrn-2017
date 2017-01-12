@@ -10,13 +10,19 @@
   }
 
 	@include min($md) {
-    margin-left: 0;
+    margin: .5em 0 2em;
   }
+
+	.tix-coupon-link {
+		border-bottom: 1px solid $blue;
+	}
 
 }
 
 .tix-attendee-form {
 	th {
+		border: 1px solid lighten($lightest-blue, 7.5%);
+		border-bottom-width: 0;
 		font-weight: 700;
 	}
 }
