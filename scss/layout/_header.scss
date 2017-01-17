@@ -18,10 +18,14 @@
     vertical-align: middle;
 
 		#masthead {
-			padding-top: 3em;
+			padding-top: 7em;
 
-			@include max($bml) {
+			@include min($xs) {
 				padding-top: 5em;
+			}
+
+			@include min($bml) {
+				padding-top: 3em;
 			}
 		}
   }
