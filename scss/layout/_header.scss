@@ -17,16 +17,20 @@
     text-align: center;
     vertical-align: middle;
 
+		// #masthead {
+		// 	padding-top: 7em;
+		//
+		// 	@include min($xs) {
+		// 		padding-top: 5em;
+		// 	}
+		//
+		// 	@include min($bml) {
+		// 		padding-top: 3em;
+		// 	}
+		// }
+
 		#masthead {
-			padding-top: 7em;
-
-			@include min($xs) {
-				padding-top: 5em;
-			}
-
-			@include min($bml) {
-				padding-top: 3em;
-			}
+			padding-top: 3em;
 		}
   }
 
