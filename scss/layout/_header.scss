@@ -19,6 +19,10 @@
 
 		#masthead {
 			padding-top: 3em;
+
+			@include max($bml) {
+				padding-top: 5em;
+			}
 		}
   }
 
