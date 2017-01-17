@@ -70,8 +70,8 @@
     @extend %button-featured;
 
 		font-size: 1.2em;
-    margin: 0 1em;
-    padding: .7em;
+    margin: 0;
+    padding: .5em;
 
     @include min($xs) {
       margin-bottom: 0em;
@@ -86,12 +86,6 @@
 			font-size: 1em;
       margin-bottom: 0;
 			padding: .9em;
-
-			&:hover {
-				background: darken($blue, 10%);
-				border: none;
-				padding: 1em;
-			}
     }
 
     @include min($lg) {
@@ -99,8 +93,15 @@
     }
 
 		&:hover {
+			background: $featured;
 			border: none;
-			padding: .8em 0 .85em;
+			padding: .6em 0;
+
+			@include min($bml) {
+				background: darken($blue, 10%);
+				border: none;
+				padding: 1em;
+			}
 		}
 
   }
