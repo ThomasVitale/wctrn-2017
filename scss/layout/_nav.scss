@@ -34,7 +34,16 @@
 		@include min($bml) {
     	display: none;
 		}
+
   }
+
+	.menu {
+		@include max($bml) {
+			max-height: 500px;
+			overflow-y: scroll;
+			-webkit-overflow-scrolling:touch;
+		}
+	}
 
   .menu-header,
 	.menu {
