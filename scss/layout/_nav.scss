@@ -39,7 +39,7 @@
 
 	.menu {
 		@include max($bml) {
-			max-height: 500px;
+			max-height: 350px;
 			overflow-y: scroll;
 		}
 	}
