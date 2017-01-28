@@ -77,7 +77,7 @@
   .featured-button {
     @extend %button-featured;
 
-		font-size: 1.2em;
+	font-size: 1.2em;
     margin: 0;
     padding: .5em;
 
@@ -85,15 +85,15 @@
       margin-bottom: 0em;
     }
 
-		@include max($bml) {
-			width: 100%;
-		}
+	@include max($bml) {
+		width: 100%;
+	}
 
     @include min($bml) {
-      float: right;
-			font-size: 1em;
-      margin-bottom: 0;
-			padding: .9em;
+    	float: right;
+		font-size: 1em;
+    	margin-bottom: 0;
+		padding: .85em .9em;
     }
 
     @include min($lg) {
@@ -102,14 +102,27 @@
 
 		&:hover {
 			background: $featured;
-			border: none;
-			padding: .6em 0;
+			border-color: $featured;
+			// border: none;
+			// padding: .6em 0;
 
 			@include min($bml) {
 				background: darken($blue, 10%);
-				border: none;
-				padding: 1em;
+				border-color: darken($blue, 10%);
+				// border: none;
+				// padding: 1em;
 			}
+		}
+
+		&:focus {
+			top: 0;
+			left: 0;
+		}
+
+		&:active {
+			border-color: $featured;
+			background: $featured;
+			color: $white;
 		}
 
   }
@@ -132,16 +145,15 @@
 				padding: .5em 0;
 			}
 
-			&:last-child {
-				border-bottom: none;
+		&:last-child {
+			border-bottom: none;
+		}
+
+  		&:hover {
+			@include min($bml) {
+    			background: darken($blue, 10%);
 			}
-
-      &:hover {
-
-				@include min($bml) {
-        	background: darken($blue, 10%);
-				}
-      }
+  		}
 
       a {
 				border: 0;
