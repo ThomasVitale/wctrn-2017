@@ -31,6 +31,24 @@
 
 }
 
+#content-row-wrapper {
+  .sidebar-row {
+    .widget-area {
+
+			@include min($md) {
+				@include span(4 last);
+			}
+
+			display: block;
+    }
+  }
+}
+
+/* Pages */
+.page #content-raw {
+	@include span(8);
+}
+
 /* Sidebar conditional */
 
 body.blog,
