@@ -44,9 +44,11 @@
   @extend %button-base;
 
 	background: $light-gold;
+	border-color: $light-gold;
 	color: $white;
 
   &:hover {
+		background: $white;
 		border-color: $light-gold;
 	  color: $light-gold;
   }
