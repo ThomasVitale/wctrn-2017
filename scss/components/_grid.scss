@@ -33,7 +33,7 @@
 
 #content-row-wrapper {
   .sidebar-row {
-    .widget-area {
+    #content-row-1 {
 
 			@include min($md) {
 				@include span(4 last);
@@ -45,7 +45,7 @@
 }
 
 /* Pages */
-.page #content-row .content-row {
+.page #content-row .content-row.alpha {
 	@include span(8);
 }
 
