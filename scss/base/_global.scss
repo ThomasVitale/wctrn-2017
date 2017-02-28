@@ -31,12 +31,12 @@ body {
 }
 
 a {
-	border-bottom: 1px solid $link-color;
   color: $link-color;
+  text-decoration: none;
 
   &:hover, &:focus {
     color: darken($link-color, 10%);
-    border-bottom: 1px solid darken($link-color, 10%);
+    border-bottom: 1px solid $link-color;
   }
 
 }
