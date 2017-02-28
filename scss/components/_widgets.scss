@@ -133,6 +133,11 @@
 
       &:nth-child(even) {
         background-color: $gold;
+				color: $dark;
+
+				h3 {
+					color: $dark;
+				}
       }
 
 			.widget-title {
