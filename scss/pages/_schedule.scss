@@ -97,7 +97,7 @@
         .wcpt-session-speakers {
           &:after {
             @extend %track-name;
-            content: 'Track 1';
+            content: 'Track A';
           }
         }
       }
@@ -106,7 +106,7 @@
         .wcpt-session-speakers {
           &:after {
             @extend %track-name;
-            content: 'Track 2';
+            content: 'Track B';
           }
         }
       }
