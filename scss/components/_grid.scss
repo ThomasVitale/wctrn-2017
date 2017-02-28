@@ -40,16 +40,32 @@
 			}
 
 			display: block;
+
     }
   }
 }
 
 /* Pages */
-.wcb_session-template-default #content-row .content-row.alpha,
-.wcb_sponsor-template-default #content-row .content-row.alpha,
-.wcb_speaker-template-default #content-row .content-row.alpha,
-.page-template-default #content-row .content-row.alpha {
-	@include span(8);
+.wcb_session-template-default,
+.wcb_sponsor-template-default,
+.wcb_speaker-template-default,
+.page-template-default {
+
+	#content-row .content-row.alpha {
+		@include span(12);
+		
+		@include min($md) {
+			@include span(8);
+		}
+	}
+
+	#content-row-1 {
+		@include span(12);
+
+		@include min($md) {
+			@include span(4 last);
+		}
+	}
 }
 
 /* Sidebar conditional */
