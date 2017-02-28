@@ -35,19 +35,21 @@ a {
   text-decoration: none;
 
   &:hover, &:focus {
+		border-bottom: 1px solid $link-color;
     color: darken($link-color, 10%);
-    border-bottom: 1px solid $link-color;
+		cursor: pointer;
   }
 
 }
 
 .entry-content a {
+
+	border-bottom: 1px solid $link-color;
 	color: $link-color;
-  border-bottom: 1px solid $link-color;
 
   &:hover, &:focus {
+		border-bottom-color: darken($link-color, 10%);
     color: darken($link-color, 10%);
-    border-bottom-color: darken($link-color, 10%);
   }
 }
 
