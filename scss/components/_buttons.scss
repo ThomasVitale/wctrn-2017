@@ -13,7 +13,9 @@
     top: 2px;
   }
 
-	&:hover {
+	&:hover,
+	&:focus,
+	&:active {
 		border-bottom: 2px solid;
 	}
 
@@ -25,7 +27,9 @@
 	border-color: $dark-gray;
   color: $dark-gray;
 
-  &:hover {
+	&:hover,
+	&:focus,
+	&:active {
 		background: $dark-gray;
 		color: $white;
   }
@@ -38,7 +42,9 @@
   border-color: $gray;
 	color: $gray;
 
-  &:hover {
+	&:hover,
+	&:focus,
+	&:active {
     background: $gray;
 		color: $white;
   }
@@ -52,7 +58,9 @@
 	border-color: $light-gold;
 	color: $white;
 
-  &:hover {
+	&:hover,
+	&:focus,
+	&:active {
 		background: $white;
 		border-color: $light-gold;
 	  color: $light-gold;
@@ -67,7 +75,9 @@
 	background: $featured;
   color: $white;
 
-  &:hover {
+	&:hover,
+	&:focus,
+	&:active {
 		background: transparent;
 		border-color: $white;
   }
@@ -80,7 +90,9 @@
 	border-color: $dark;
 	color: $dark;
 
-	&:hover {
+	&:hover,
+	&:focus,
+	&:active {
 		background: $dark;
 		color: $white;
 	}
@@ -92,7 +104,9 @@
 	border-color: $white;
 	color: $white;
 
-	&:hover {
+	&:hover,
+	&:focus,
+	&:active {
 		background: $white;
 		color: $dark-gray;
 	}
@@ -106,21 +120,13 @@
 	border-color: $blue;
 	color: $white;
 
-  &:hover {
+	&:hover,
+	&:focus,
+	&:active {
 		background: $white;
 		border-color: $blue;
 	  color: $blue;
   }
-
-  // @extend %button-base;
-	//
-	// border-color: $blue;
-  // color: $blue;
-	//
-  // &:hover {
-	// 	background: $blue;
-  //   color: $white;
-  // }
 
 }
 
@@ -152,7 +158,9 @@
     @extend %button-small;
   }
 
-	&:hover {
+	&:hover,
+	&:focus,
+	&:active {
 		border-bottom-color: $white;
 	}
 
@@ -166,7 +174,9 @@
     @extend %button-small;
   }
 
-	&:hover {
+	&:hover,
+	&:focus,
+	&:active {
 		border-bottom-color: $dark;
 	}
 
