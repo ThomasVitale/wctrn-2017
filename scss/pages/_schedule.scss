@@ -97,7 +97,7 @@
         .wcpt-session-speakers {
           &:after {
             @extend %track-name;
-            content: 'Foundry';
+            content: 'Track 1';
           }
         }
       }
@@ -106,7 +106,7 @@
         .wcpt-session-speakers {
           &:after {
             @extend %track-name;
-            content: 'Blast Furnace';
+            content: 'Track 2';
           }
         }
       }
