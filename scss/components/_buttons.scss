@@ -83,15 +83,28 @@
 }
 
 %button-blue {
-  @extend %button-base;
 
+	@extend %button-base;
+
+	background: $blue;
 	border-color: $blue;
-  color: $blue;
+	color: $white;
 
   &:hover {
-		background: $blue;
-    color: $white;
+		background: $white;
+		border-color: $blue;
+	  color: $blue;
   }
+
+  // @extend %button-base;
+	// 
+	// border-color: $blue;
+  // color: $blue;
+	//
+  // &:hover {
+	// 	background: $blue;
+  //   color: $white;
+  // }
 
 }
 
