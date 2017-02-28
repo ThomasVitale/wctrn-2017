@@ -41,6 +41,16 @@ a {
 
 }
 
+.entry-content a {
+	color: $link-color;
+  border-bottom: 1px solid $link-color;
+
+  &:hover, &:focus {
+    color: darken($link-color, 10%);
+    border-bottom-color: darken($link-color, 10%);
+  }
+}
+
 img {
 	height: auto;
   max-width: 100%;
