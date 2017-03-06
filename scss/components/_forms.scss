@@ -28,6 +28,12 @@ textarea, select {
 /* Jetpack Form */
 .contact-form {
 
+	label {
+		span {
+			color: $gray;
+		}
+	}
+
 	textarea {
     max-width: 600px;
     width: 100% !important;
