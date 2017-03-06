@@ -73,13 +73,14 @@
 
 	border-color: $featured;
 	background: $featured;
-  color: $white;
+  color: $dark-gray;
 
 	&:hover,
 	&:focus,
 	&:active {
 		background: transparent;
 		border-color: $white;
+		color: $white;
   }
 
 }
