@@ -180,7 +180,7 @@
 
           &:hover {
 						@include min($bml) {
-		        	background: lighten($dark-gray, 10%);
+		        	background: darken($dark-gray, 20%);
 						}
           }
         }
