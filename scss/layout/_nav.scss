@@ -151,7 +151,7 @@
 
   		&:hover {
 			@include min($bml) {
-    			background: darken($blue, 10%);
+    			background: darken($dark-gray, 10%);
 			}
   		}
 
@@ -167,7 +167,7 @@
         min-width: 100%;
 
 				@include min($bml) {
-					background: darken($blue, 10%);
+					background: darken($dark-gray, 10%);
 					display: none;
 					margin-top: .5em;
 					position: absolute;
@@ -180,7 +180,7 @@
 
           &:hover {
 						@include min($bml) {
-		        	background: lighten($blue, 10%);
+		        	background: lighten($dark-gray, 10%);
 						}
           }
         }
