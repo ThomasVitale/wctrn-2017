@@ -108,6 +108,7 @@
 			@include min($bml) {
 				background: darken($dark-gray, 10%);
 				border-color: darken($dark-gray, 10%);
+				color: $white;
 			}
 		}
 
