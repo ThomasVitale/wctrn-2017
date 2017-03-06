@@ -102,15 +102,11 @@
 
 		&:hover {
 			background: $featured;
-			// border-color: $featured;
-			border: none;
-			// padding: .6em 0;
+			border-color: $featured;
 
 			@include min($bml) {
 				background: darken($dark-gray, 10%);
 				border-color: darken($dark-gray, 10%);
-				// border: none;
-				// padding: 1em;
 			}
 		}
 
@@ -118,12 +114,6 @@
 			top: 0;
 			left: 0;
 		}
-
-		// &:active {
-		// 	border-color: $featured;
-		// 	background: $featured;
-		// 	color: $white;
-		// }
 
   }
 
