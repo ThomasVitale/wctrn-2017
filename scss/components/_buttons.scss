@@ -73,7 +73,7 @@
 
 	border-color: $featured;
 	background: $featured;
-  color: $dark-gray;
+  color: darken($dark-gray, 10%);
 
 	&:hover,
 	&:focus,
