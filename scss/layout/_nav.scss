@@ -103,6 +103,7 @@
 		&:hover {
 			background: $featured;
 			border-color: $featured;
+			color: $dark-gray;
 
 			@include min($bml) {
 				background: darken($dark-gray, 10%);
