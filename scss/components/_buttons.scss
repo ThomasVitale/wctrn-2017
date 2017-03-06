@@ -87,13 +87,13 @@
 %button-dark {
 	@extend %button-base;
 
-	border-color: $dark;
-	color: $dark;
+	border-color: $dark-gray;
+	color: $dark-gray;
 
 	&:hover,
 	&:focus,
 	&:active {
-		background: $dark;
+		background: $dark-gray;
 		color: $white;
 	}
 }
@@ -177,7 +177,7 @@
 	&:hover,
 	&:focus,
 	&:active {
-		border-bottom-color: $dark;
+		border-bottom-color: $dark-gray;
 	}
 
 }

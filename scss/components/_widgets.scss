@@ -132,11 +132,11 @@
       }
 
       &:nth-child(even) {
-        background-color: $gold;
-				color: $dark;
+        background-color: $lightest-blue;
+				color: $dark-gray;
 
 				h3 {
-					color: $dark;
+					color: $dark-gray;
 				}
       }
 
