@@ -192,3 +192,21 @@
     display: none;
   }
 }
+
+/* Double-length speech fix. */
+td.wcpt-session-empty:last-child {
+    background-color: #fff;
+    padding: 0;
+    position: relative;
+
+    &:before {
+        content: "";
+        display: block;
+        height: 1px;
+        position: absolute;
+        top: -1px;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+    }
+}
