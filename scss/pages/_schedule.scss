@@ -184,7 +184,12 @@
     display: inline;
     padding: 0;
   }
+}
 
+.page-slug-schedule-contributor-day .wcpt-schedule tbody td:nth-child(2) .wcpt-session-speakers:after, .tix_tickets_table tbody td:nth-child(2) .wcpt-session-speakers:after {
+  @media screen and (max-width:1080px) {
+    display: none;
+  }
 }
 
 .wcpt-session-type-session {
