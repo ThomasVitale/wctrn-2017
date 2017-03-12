@@ -192,6 +192,12 @@
   }
 }
 
+.page-slug-schedule-contributor-day span.wcpt-session-speakers {
+  @media screen and (max-width:1080px) {
+    padding-left: 0;
+  }
+}
+
 .wcpt-session-type-session {
   &:before {
     display: none;
