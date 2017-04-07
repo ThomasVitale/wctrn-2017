@@ -115,6 +115,21 @@
 
   }
 
+	.page-slug-schedule-contributor-day tbody {
+
+		td {
+			&:nth-child(2) {
+				.wcpt-session-speakers {
+					&:after {
+						@extend %track-name;
+						content: '';
+					}
+				}
+			}
+		}
+
+	}
+
   th, td {
     display: block;
     padding: .8em;
