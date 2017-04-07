@@ -251,3 +251,19 @@ blockquote {
     }
   }
 }
+
+
+.post-slug-il-contributor-day tbody {
+
+	td {
+		&:nth-child(2) {
+			.wcpt-session-speakers {
+				&:after {
+					@extend %track-name;
+					content: '';
+				}
+			}
+		}
+	}
+
+}
