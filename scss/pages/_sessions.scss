@@ -36,3 +36,15 @@ h2.speaker-sessions {
 	font-style: italic;
 	text-align: center;
 }
+
+.single-wcb_session {
+	.button--blue {
+		color: #fff;
+
+		&:hover,
+		&:active,
+		&:focus {
+			color: $blue;
+		}
+	}
+}
